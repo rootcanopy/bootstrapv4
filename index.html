@@ -3,21 +3,32 @@
 <head>
     
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
    
 </head>
 <body>
+    <nav class="navbar navbar-light navbar-expand-sm bg-light">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto text-right">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
+            <li class="nav-item mr-2 d-inline d-sm-none"><a class="nav-link" href="/">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door</i></p>
+            <a href="/">Sign In / Sign Up</a>
+    </nav>
     <!--Callout-->
-    <article class="container">
+    <article class="container mt-3">
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.<s>€19.99</s> <strong><mark>First one is free!</mark></strong></p>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.<s>€19.99</s> <br><strong><mark>First one is free!</mark></strong></p>
                     <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                    <p class="text-danger"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
         </div>   
@@ -53,7 +64,7 @@
                 <!-- Features -->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2><br>
                 </div>
             </div>    
@@ -75,7 +86,7 @@
                 </div>
             
             
-                <div class="col-12 col-md-6 col-lg-4"> <!--Have left this col-d visible-->
+                <div class="col-12 col-md-6 col-lg-4"> <!--Have left this col-d visible to keep the page full-->
                     <div class="feature">
                         <h3>Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -84,9 +95,9 @@
                 </div>
             </div>
         </section>
-                <section class="favorites">
+                <section class="features text-center">
                     <h2 class=text-uppercase">Monthly Favorites:</h2>
-                    <table class="table table-sm table-bordered">
+                    <table class="table table-bordered table-success table-sm mw-50">
                         <thead class="table-dark">
                             <tr>
                             <th scope="col">#</th>
@@ -119,7 +130,7 @@
                             <th>Scotland</th>
                             </tr>
                         </tbody>
-                                            
+                      </div>                       
                     </table>
                 </section>
                 <!-- /.features -->
