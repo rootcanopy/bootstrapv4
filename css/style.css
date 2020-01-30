@@ -1,4 +1,39 @@
 body {
-    font-family: 'Rambla';
+    font-family: 'Rambla'; sans-serif;
 }
- 
+.navbar {
+    overflow: auto;
+}
+.alert-container {
+
+}
+.callout-container {
+    background: url("/images/Whiskey-glass-cover.jpgpng");
+    width: 100vw;
+    height: 100vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.jumbotron {
+    background-color: transparent;
+    margin-top: 18%;
+    font-weight: 10%;
+}
+.jumbotron h1{
+    font-weight: bold;
+}
+.qoutes-container {
+
+}
+.features-container {
+
+}
+tables-container {
+
+}
