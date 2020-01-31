@@ -8,15 +8,20 @@ body {
 
 }
 .callout-container {
-    background: url("/images/Whiskey-glass-cover.jpgpng");
+    background: url("/Images/Whiskey-glass-cover.jpg")fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
     width: 100vw;
-    height: 100vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
     
     
 }
